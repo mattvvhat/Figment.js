@@ -81,7 +81,7 @@ Mesh.Face.equal = function (lhs, rhs) {
   return true;
 };
 
-// Export for browser and oodeJS
+// Export for browser and NodeJS
 ~function () {
   var root = this;
   if (typeof module === 'object' && 'exports' in module) {
